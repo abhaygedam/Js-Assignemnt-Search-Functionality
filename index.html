@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Searc functionality</title>
+		<style>
+			#inputBox {
+				width: 550px;
+				height: 40px;
+				margin: 100px 10px 0px 32%;
+			}
+			.butt {
+				width: 80px;
+				height: 40px;
+			}
+			.results {
+				width: 500px;
+				height: 400px;
+				margin: 20px auto;
+				border: 2px solid black;
+				overflow: scroll;
+			}
+			.card {
+				width: 100%;
+				height: 50px;
+				padding: 0px;
+				border: 1px solid black;
+				margin: 0px;
+			}
+			.name {
+				margin-left: 50px;
+				font-size: 18px;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="text" onkeyup="betterFunction()" id="inputBox" />
+		<button class="butt">Search</button>
+		<div class="results"></div>
+	</body>
+	<script src="./index.js"></script>
+</html>
